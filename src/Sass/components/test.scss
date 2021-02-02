@@ -1,0 +1,16 @@
+@import '../helpers/_variables.scss';
+
+.head {
+    width: 100%;
+    height: 10vh;
+    background-color: $color-green;
+    position: $fixed;
+    top:0;
+}
+.head2{
+    width: 100%;
+    height: 10vh;
+    background-color: $color-red;
+    position: $fixed;
+    top:0;
+}
