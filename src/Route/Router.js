@@ -1,16 +1,14 @@
 import React from 'react';
-import{BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import{BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Card from '../components/Card';
-import Hello from '../components/Hello';
+import Height from '../components/Height';
 
-const Router =() => {
-    return (
-        <Router>
-                <Switch>
-                    <Route exact path ="/" component={Card}/>
-                    <Route exact path ="/yo" component={Hello}/>
-                </Switch>
-        </Router>
-    )
-}
+const Routeur = () => (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Card} />
+        <Route path="/yo" component={Height}/>
+      </Switch>                    
+    </Router>
+  ); 
 export default Router

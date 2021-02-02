@@ -11,8 +11,7 @@ import './App.scss';
 //import UseStateExemple from './Hooks/UseStateExemple';
 //import UseStateTest from './Hooks/UseState';
 //import UseEffect from './Hooks/UseEffect';
-import Height from './components/Height';
-import Route from './Route/Router.js';
+import Router from './Route/Router';
 
 function App() {
 
@@ -23,8 +22,7 @@ function App() {
   return (
     <div className="App">
     
-      <Height>
-      </Height>
+      <Router/>
 
       {/* 
       <div>
