@@ -3,7 +3,7 @@ import{BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Card from '../components/Card';
 import Height from '../components/Height';
 
-const Routeur = () => (
+const Rounter = () => (
     <Router>
       <Switch>
         <Route exact path="/" component={Card} />
@@ -11,4 +11,4 @@ const Routeur = () => (
       </Switch>                    
     </Router>
   ); 
-export default Router
+export default Rounter
